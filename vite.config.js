@@ -10,7 +10,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
+        main: resolve(__dirname, 'src/index.html'),
         // otherName: resolve(__dirname, 'src/other-file.html'), // If you're publishing multiple pages
       },
     },
